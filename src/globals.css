@@ -1,0 +1,66 @@
+/* src/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+  }
+
+  htm {
+    scroll-behavior: smooth;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container__app {
+    width: 40%;
+    margin: 0 auto;
+  }
+
+ .container__box {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    font-size: 15px;
+    min-height: 65px;
+    margin: 16px 0px;
+    border: 2px solid #47C2BE;    
+    background-color: #293143;
+ }
+
+
+ body {
+    background-color: #171B26; 
+    color: aliceblue;
+ }
+
+ .bs_bell {
+  color:rgb(22, 22, 22)
+ }
+  
+
+  /* ================== MEDIA QUERIES (MD) ===================== */
+
+ @media screen and (max-width: 1024px) {
+   .container__app  {
+     width: 50%;
+     /*overflow: hidden;*/
+   } 
+    
+ }
+
+ /* ================== MEDIA QUERIES (SM) ===================== */
+@media screen and (max-width: 600px) {
+   .container__app {
+     width: 90%;
+     /*overflow: hidden;*/
+   } 
+   
+ }

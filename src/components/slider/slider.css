@@ -1,0 +1,44 @@
+.item {
+    min-height: 9rem;
+    min-width: 8rem;
+    padding: 4px;    
+}
+
+.item img {
+    height: 100%; 
+    width: 100%; 
+    border-radius: 5px;
+    pointer-events: none;
+}
+
+.inner_slider {
+    display: flex;
+    /* background-color: lightskyblue; */
+}
+
+.slider {
+    cursor:grab;
+    overflow: hidden;
+    /* background-color: coral; */
+}
+
+  /* ================== MEDIA QUERIES (MD) ===================== */
+
+  @media screen and (max-width: 1024px) {
+    .container__app   {
+      width: 40%;
+      margin: auto;
+      
+    } 
+     
+  }
+ 
+  /* ================== MEDIA QUERIES (SM) ===================== */
+ @media screen and (max-width: 600px) {
+    .container__app  {
+      width: 80%;
+      margin: auto;
+      
+    } 
+    
+  }

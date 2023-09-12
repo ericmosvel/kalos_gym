@@ -1,0 +1,31 @@
+{
+    "name": "Lee Robinson",
+    "avatar": "https://i.ibb.co/wgLxtVg/avatar-girl.jpg",
+    "links": [
+        {
+            "title": "My Personal Site",
+            "url": "https://https://the-nice-portfolio.netlify.app/",
+            "image": "https://pbs.twimg.com/profile_images/1630341047938080768/5rAM6pr9_400x400.jpg"
+
+        },
+        {
+            "title": "Vite",
+            "url": "https://vitejs.dev/guide/"
+
+        }
+    ],
+    "socials": [
+        {
+            "title": "Twitter",
+            "url": "https://twitter.com/devmosvel"
+
+        },
+        {
+            "title": "GitHub",
+            "url": "https://github.com/ericmosvel"
+
+        }
+    ]
+
+
+}
