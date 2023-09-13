@@ -1,14 +1,14 @@
 import data from '../../services/data.json'
-import { BsInstagram } from 'react-icons/Bs'
-import { FaTiktok } from 'react-icons/Fa'
-import { IconContext } from "react-icons";
+import { BsInstagram } from 'react-icons/bs'
+import { FaTiktok } from 'react-icons/fa'
+import { IconContext } from "react-icons"
 
 const Profile = () => {
   return (
     <section className="container__app flex justify-center items-center flex-col mb-4 px-4">
       <span className='shrink-0 relative'>
         <img
-          className='rounded-full border-2 border-solid border-purple-700'
+          className='rounded-full border-2 border-solid border-teal-500'
           alt={data.name}
           src={data.avatar}
           width={110}

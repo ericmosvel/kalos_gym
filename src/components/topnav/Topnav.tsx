@@ -1,5 +1,5 @@
-import { BsBell } from 'react-icons/Bs'
-import { BsChatDots } from 'react-icons/Bs'
+import { BsBell } from 'react-icons/bs'
+import { BsChatDots } from 'react-icons/bs'
 
 const Topnav = () => {
   return (
