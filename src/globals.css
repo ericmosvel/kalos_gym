@@ -51,7 +51,6 @@
  @media screen and (max-width: 1024px) {
    .container__app  {
      width: 50%;
-     /*overflow: hidden;*/
    } 
     
  }
@@ -59,8 +58,7 @@
  /* ================== MEDIA QUERIES (SM) ===================== */
 @media screen and (max-width: 600px) {
    .container__app {
-     width: 90%;
-     /*overflow: hidden;*/
+     width: 90%;    
    } 
    
  }
